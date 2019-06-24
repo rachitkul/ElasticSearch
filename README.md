@@ -3,7 +3,7 @@ SpringBoot Microservice to expose AWS ElasticSearch funtionality
 
 Home Assignment had 3 parts;
 
-1) creating Aws elastic search domain 
+1) Creating Aws elastic search domain 
  - Created domain called insurance.
  - it is m4.xlarge.elasticsearch instance type
 
@@ -11,14 +11,18 @@ Home Assignment had 3 parts;
  - splitting of csv files into smaller files.(As m4.xlarge.elasticsearch has 100MB as limit of one payload)
  - converting each csv to indexed json format.
  example:
+ 
  { "index" : { "_index": "movies", "_type" : "_doc", "_id" : "2" } }
  {"director": "Frankenheimer, John", "genre": ["Drama", "Mystery", "Thriller"], "year": 1962}
+ 
  - ingested using curl:
  example:
  curl -XPOST <domain_endpoint>/_bulk --data-binary @<smaller json files> -H 'Content-Type: application/x-ndjson'
- 
- 
- 3) exposing search functionality using java SpringBoot Microservice
+
+Note: I have injected all documents in AWS Elactic search in small chunks of ~50MB.
+	
+
+3) Exposing search functionality using java SpringBoot Microservice
  - a dedicated microservice with a Client to make requests to AWS elastic search
  
  Test:
