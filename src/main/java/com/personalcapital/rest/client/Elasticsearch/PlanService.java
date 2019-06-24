@@ -31,7 +31,7 @@ public class PlanService {
     {
         SearchRequest searchRequest =  new SearchRequest("insurance");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
-        sourceBuilder.query(QueryBuilders.termQuery("PLAN_NAME", planName));
+        sourceBuilder.query(QueryBuilders.termQuery("PLAN_NAME", planName.toLowerCase()));
         searchRequest.source(sourceBuilder);
 
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
@@ -43,7 +43,7 @@ public class PlanService {
     {
         SearchRequest searchRequest =  new SearchRequest("insurance");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
-        sourceBuilder.query(QueryBuilders.termQuery("SPONSOR_DFE_NAME", sponsorName));
+        sourceBuilder.query(QueryBuilders.termQuery("SPONSOR_DFE_NAME", sponsorName.toLowerCase()));
         searchRequest.source(sourceBuilder);
 
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
@@ -55,7 +55,7 @@ public class PlanService {
     {
         SearchRequest searchRequest =  new SearchRequest("insurance");
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
-        sourceBuilder.query(QueryBuilders.termQuery("SPONS_DFE_MAIL_US_STAT", sponsorState));
+        sourceBuilder.query(QueryBuilders.termQuery("SPONS_DFE_MAIL_US_STATE", sponsorState.toLowerCase()));
         searchRequest.source(sourceBuilder);
 
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
