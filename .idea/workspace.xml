@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="58a4a1d7-5b8b-43d6-ae35-69a2838d882e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/ElasticSearchConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/ElasticSearchConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanDocument.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/personalcapital/rest/client/Elasticsearch/PlanDocument.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,20 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="307">
+              <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="323">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
             </state>
           </provider>
         </entry>
@@ -373,13 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/ElasticSearchConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -389,8 +376,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="66" lean-forward="true" selection-start-line="66" selection-end-line="66" />
+        <state relative-caret-position="323">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/personalcapital/rest/client/Elasticsearch/PlanController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="42" column="1" lean-forward="true" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>

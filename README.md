@@ -25,10 +25,10 @@ Home Assignment had 3 parts;
  - Run microservice on local machine/ AWS EC2 instance
  - Request to microservice:
 	1. to search by plan name:
-		http://<ip-address>:8080/personalcapital/plan/<Plan-name>
+		http://ip-address:8080/personalcapital/plan/Plan-name
  
 	2. to search  by Sponsor Name:
-		http://<ip-address>:8080/personalcapital/sponsor/<Sponsor-name>
+		http://ip-address:8080/personalcapital/sponsor/Sponsor-name
 		
 	3. to search by Sponsor State:
-		http://<ip-address>:8080/personalcapital/sponsor/<Sponsor-state>
+		http://ip-address:8080/personalcapital/sponsorstate/Sponsor-state
