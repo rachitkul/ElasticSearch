@@ -20,18 +20,22 @@ public class PlanController {
 
     }
 
-
-    @GetMapping("/plan/{planName}")
+    //search elastic search by Plan name
+    @GetMapping("/personalcapital/plan/{planName}")
     public SearchResponse findByPlanName(@PathVariable String planName ) throws Exception
     {
         return planService.searchByPlanName(planName);
     }
-    @GetMapping("/sponsor/{sponsorName}")
+
+    //search elastic search by Sponsor name
+    @GetMapping("/personalcapital/sponsor/{sponsorName}")
     public SearchResponse findBySponsorName(@PathVariable String sponsorName ) throws Exception
     {
         return planService.searchBySponsorName(sponsorName);
     }
-    @GetMapping("/sponsorstate/{sponsorState}")
+
+    //search elastic search by Sponsor state
+    @GetMapping("/personalcapital/sponsorstate/{sponsorState}")
     public SearchResponse findBySponsorState(@PathVariable String sponsorState ) throws Exception
     {
         return planService.searchBySponsorState(sponsorState);

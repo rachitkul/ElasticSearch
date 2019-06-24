@@ -20,3 +20,15 @@ Home Assignment had 3 parts;
  
  3) exposing search functionality using java SpringBoot Microservice
  - a dedicated microservice with a Client to make requests to AWS elastic search
+ 
+ Test:
+ - Run microservice on local machine/ AWS EC2 instance
+ - Request to microservice:
+	1. to search by plan name:
+		http://<ip-address>:8080/personalcapital/plan/<Plan-name>
+ 
+	2. to search  by Sponsor Name:
+		http://<ip-address>:8080/personalcapital/sponsor/<Sponsor-name>
+		
+	3. to search by Sponsor State:
+		http://<ip-address>:8080/personalcapital/sponsor/<Sponsor-state>

@@ -33,9 +33,9 @@ public class PlanService {
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         sourceBuilder.query(QueryBuilders.termQuery("PLAN_NAME", planName));
         searchRequest.source(sourceBuilder);
-        System.out.println(searchRequest.toString());
+
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
-        System.out.println(searchResponse.toString());
+
         return searchResponse;
     }
 
@@ -45,9 +45,9 @@ public class PlanService {
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         sourceBuilder.query(QueryBuilders.termQuery("SPONSOR_DFE_NAME", sponsorName));
         searchRequest.source(sourceBuilder);
-        System.out.println(searchRequest.toString());
+
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
-        System.out.println(searchResponse.toString());
+
         return searchResponse;
     }
 
@@ -57,9 +57,9 @@ public class PlanService {
         SearchSourceBuilder sourceBuilder = new SearchSourceBuilder();
         sourceBuilder.query(QueryBuilders.termQuery("SPONS_DFE_MAIL_US_STAT", sponsorState));
         searchRequest.source(sourceBuilder);
-        System.out.println(searchRequest.toString());
+
         SearchResponse searchResponse = client.search(searchRequest, RequestOptions.DEFAULT);
-        System.out.println(searchResponse.toString());
+
         return searchResponse;
     }
 
